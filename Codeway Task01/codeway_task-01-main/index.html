@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel=stylesheet href="style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+
+      <!-- navigation bar -->
+        <nav id="top">
+          <div class="navbar">
+            <ul class="sidebar">
+                <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#top">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SkillS</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="#footer">FEEDBACK</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">BLLISTER</a></li>
+                <li class="hideonmobile"><a href="#about">ABOUT</a></li>
+                <li class="hideonmobile"><a href="#skill">SKILLS</a></li>
+                <li class="hideonmobile"><a href="#project">PROJECT</a></li>
+                <li class="hideonmobile"><a href="#footer">CONTACT</a></li>
+                <li class="hideonmobile"><a href="#footer">FEEDBACK</a></li>
+                <li class="menubutton" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+          </div>  
+        </nav>
+
+          <!-- about me -->
+
+        <section class="section" id="about">
+            <div class="section__container">
+              <div class="content">
+                <p class="subtitle">BELLO</p>
+                <h1 class="title">
+                  I'm <span>Sreevishnu<br />a</span> Web Developer
+                </h1>
+                <p class="description">
+                  Welcome to my web developer portfolio! I'm Sreevishnu, a skilled and
+                  creative web developer with a passion for creating beautiful,
+                  responsive, and user-friendly websites. 
+                </p>
+                <div class="action__btns">
+                  <!-- <button class="hire__me">Hire Me</button> -->
+                  <a href="https://www.linkedin.com/in/sreevishnu--ravichandran" class="hire__me">Hire Me</a>
+                  <a href="resume.docx" download class="portfolio">Portfolio</a>
+                </div>
+              </div>
+              <div class="image">
+                <img src="iam.JPG" alt="profile" />
+              </div>
+            </div>
+        </section>
+
+
+
+        <!-- skill seaction -->
+
+        <section class="skill" id="skill">
+          <div class="inner">
+            <div class="header">
+              <h1>My Skills</h1>
+            </div>
+            <div class="contain_skill">
+              <div class="skill_box">
+                <div class="skill_title">
+                  <div class="img">
+                    <i class='bx bxl-html5 skill_icon'></i>
+                  </div>
+                  <h3>HTML 5</h3>
+                </div>
+                <p>HTML (Hypertext Markup Language) is the standard markup language for creating and structuring web pages, defining the content and layout elements within a browser.</p>
+              </div>
+
+                <div class="skill_box">
+                  <div class="skill_title">
+                    <div class="img">
+                      <i class='bx bxl-css3 skill_icon'></i>
+                    </div>
+                    <h3>CSS</h3>
+                  </div>
+                  <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of HTML documents in web development.</p>
+                </div>
+
+              
+                  <div class="skill_box">
+                    <div class="skill_title">
+                      <div class="img">
+                        <i class='bx bxl-javascript skill_icon'></i>
+                      </div>
+                      <h3>JavaScript</h3>
+                    </div>
+                    <p>JavaScript is a versatile, high-level programming language commonly used for web development to enhance interactivity and create dynamic content.</p>
+                  </div>
+
+
+                    <div class="skill_box">
+                      <div class="skill_title">
+                        <div class="img">
+                          <i class='bx bxl-python skill_icon'></i>
+                        </div>
+                        <h3>python </h3>
+                      </div>
+                      <p> Python: Renowned for its readability, versatility, and extensive library support, making it a popular choice for developers.</p>
+                    </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </section>
+
+        <!-- project section -->
+        <section class="project" id="project">
+          <h2>Projects</h2>
+
+          <div class="card-list">
+            <a href="https://github.com/maddypops/MINI_PROJECT" class="card-item">
+              <i class='bx bx-scan card-img'></i>
+                <span class="developer">Speech Emotional Recognition</span>
+                <h3>SER(Speech Emotion Recognition) using Machine learning and Python</h3>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </a>
+            <a href="#" class="card-item">
+              <i class='bx bx-terminal card-img '></i>
+                <span class="designer">Landing page</span>
+                <h3>A landing page is a targeted web page aimed at converting visitors through a specific call-to-action.</h3>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </a>
+            <a href="#" class="card-item">
+              <i class='bx bx-calculator  card-img' ></i>
+                <span class="editor">Calculator</span>
+                <h3>Creating a Calculator Which Performs Basic Calculation Using HTML,CSS And Java Script</h3>
+                <div class="arrow">
+                    <i class="fas fa-arrow-right card-icon"></i>
+                </div>
+            </a>
+        </div>
+        </section>
+        
+
+       <!-- bottom of the page -->
+
+
+        <footer class="footer" id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>about</h4>
+                <ul>
+                  <li><a href="#">about me</a></li>
+                  <li><a href="#">my services</a></li>
+                  <li><a href="#">privacy policy</a></li>
+                  <li><a href="#">projects</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">portfolio</a></li>
+                  <li><a href="#">Hobby</a></li>
+                  <li><a href="#">personal interest</a></li>
+                  <li><a href="#">contact</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>address</h4>
+                <ul>
+                  <li><a href="#">SembaNagar</a></li>
+                  <li><a href="#">Madhampatti</a></li>
+                  <li><a href="#">Coimbatore, 641010, India</a></li>
+                  <li><a href="#">sreevishnu.ravi2110@gmail.com</a></li>
+                  <li><a href="#">+91 9600937421</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://twitter.com/bllister"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/bllister_still_alive/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sreevishnu--ravichandran"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+       </footer>
+     
+        <script src="script.js"></script>
+</body>
+</html>
